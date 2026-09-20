@@ -11,57 +11,57 @@
 
 QUIZZES = {
 
-    "Ilusões de Óptica": [
+    "Lobisomem": [
         {
-            "pergunta": "Qual parte do olho está relacionada ao chamado ponto cego?",
-            "alternativas": ["Disco óptico", "Íris", "Cristalino"],
+            "pergunta": "Em muitas lendas, em qual fase da lua o lobisomem costuma se transformar?",
+            "alternativas": ["Lua cheia", "Lua nova", "Lua minguante"],
             "correta": 0,
         },
         {
-            "pergunta": "Uma ilusão de óptica engana principalmente qual sentido?",
-            "alternativas": ["Audição", "Visão", "Olfato"],
+            "pergunta": "O lobisomem é uma criatura metade homem e metade o quê?",
+            "alternativas": ["Urso", "Lobo", "Cavalo"],
             "correta": 1,
         },
         {
-            "pergunta": "Duas linhas do mesmo tamanho podem parecer diferentes por causa de quê?",
-            "alternativas": ["Temperatura", "Contexto visual", "Som ambiente"],
-            "correta": 1,
-        },
-    ],
-
-    "Curiosidades sobre Perfumes": [
-        {
-            "pergunta": "Qual tipo costuma ter maior concentração de fragrância?",
-            "alternativas": ["Body splash", "Eau de toilette", "Eau de parfum"],
-            "correta": 2,
-        },
-        {
-            "pergunta": "Como são chamadas as fragrâncias percebidas primeiro em um perfume?",
-            "alternativas": ["Notas de saída", "Notas de fundo", "Notas fixas"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "Quais notas normalmente permanecem por mais tempo na pele?",
-            "alternativas": ["Notas de saída", "Notas de fundo", "Notas cítricas"],
+            "pergunta": "O lobisomem faz parte principalmente de qual tipo de narrativa?",
+            "alternativas": ["Receitas populares", "Lendas e folclore", "Notícias esportivas"],
             "correta": 1,
         },
     ],
 
-    "Curiosidades sobre Ímãs": [
+    "Loira do Banheiro": [
         {
-            "pergunta": "Como são chamados os dois extremos de um ímã?",
-            "alternativas": ["Polos", "Eixos", "Centros"],
+            "pergunta": "A Loira do Banheiro é conhecida como qual tipo de personagem?",
+            "alternativas": ["Heroína histórica", "Lenda urbana", "Cantora famosa"],
+            "correta": 1,
+        },
+        {
+            "pergunta": "Em qual lugar essa lenda costuma acontecer?",
+            "alternativas": ["Banheiro de escola", "Praia deserta", "Campo de futebol"],
             "correta": 0,
         },
         {
-            "pergunta": "O que acontece quando dois polos iguais de ímãs se aproximam?",
-            "alternativas": ["Eles se repelem", "Eles se fundem", "Nada acontece"],
+            "pergunta": "A lenda da Loira do Banheiro é muito conhecida principalmente em qual país?",
+            "alternativas": ["Brasil", "Canadá", "Japão"],
+            "correta": 0,
+        },
+    ],
+
+    "Boi da Cara Preta": [
+        {
+            "pergunta": "O Boi da Cara Preta é mais conhecido por aparecer em quê?",
+            "alternativas": ["Cantiga popular", "Filme de ação", "Programa de auditório"],
             "correta": 0,
         },
         {
-            "pergunta": "Qual destes materiais é fortemente atraído por muitos ímãs comuns?",
-            "alternativas": ["Madeira", "Vidro", "Ferro"],
-            "correta": 2,
+            "pergunta": "Na cantiga, o Boi da Cara Preta é citado para assustar quem?",
+            "alternativas": ["O fazendeiro", "A criança que não quer dormir", "O vendedor da feira"],
+            "correta": 1,
+        },
+        {
+            "pergunta": "O Boi da Cara Preta faz parte de qual tradição cultural?",
+            "alternativas": ["Folclore e cultura popular", "Ciência moderna", "Matemática básica"],
+            "correta": 0,
         },
     ],
 
