@@ -10,122 +10,59 @@
 # ============================================================
 
 QUIZZES = {
-    "Conhecimentos Gerais": [
+
+    "Ilusões de Óptica": [
         {
-            "pergunta": "Qual é a capital do Brasil?",
-            "alternativas": ["Rio de Janeiro", "Brasília", "São Paulo"],
+            "pergunta": "Qual parte do olho está relacionada ao chamado ponto cego?",
+            "alternativas": ["Disco óptico", "Íris", "Cristalino"],
+            "correta": 0,
+        },
+        {
+            "pergunta": "Uma ilusão de óptica engana principalmente qual sentido?",
+            "alternativas": ["Audição", "Visão", "Olfato"],
             "correta": 1,
         },
         {
-            "pergunta": "Qual planeta é conhecido como Planeta Vermelho?",
-            "alternativas": ["Terra", "Marte", "Júpiter"],
+            "pergunta": "Duas linhas do mesmo tamanho podem parecer diferentes por causa de quê?",
+            "alternativas": ["Temperatura", "Contexto visual", "Som ambiente"],
             "correta": 1,
         },
+    ],
+
+    "Curiosidades sobre Perfumes": [
         {
-            "pergunta": "Qual é o maior oceano do mundo?",
-            "alternativas": ["Atlântico", "Índico", "Pacífico"],
+            "pergunta": "Qual tipo costuma ter maior concentração de fragrância?",
+            "alternativas": ["Body splash", "Eau de toilette", "Eau de parfum"],
             "correta": 2,
         },
         {
-            "pergunta": "Quantos lados tem um triângulo?",
-            "alternativas": ["3", "4", "5"],
+            "pergunta": "Como são chamadas as fragrâncias percebidas primeiro em um perfume?",
+            "alternativas": ["Notas de saída", "Notas de fundo", "Notas fixas"],
             "correta": 0,
         },
         {
-            "pergunta": "Qual gás utilizamos na respiração?",
-            "alternativas": ["Oxigênio", "Nitrogênio", "Hélio"],
-            "correta": 0,
-        },
-    ],
-
-    "Corpo Humano": [
-        {
-            "pergunta": "Qual órgão bombeia o sangue por todo o corpo?",
-            "alternativas": ["Pulmão", "Coração", "Fígado"],
+            "pergunta": "Quais notas normalmente permanecem por mais tempo na pele?",
+            "alternativas": ["Notas de saída", "Notas de fundo", "Notas cítricas"],
             "correta": 1,
         },
-        {
-            "pergunta": "Quantos ossos tem, em geral, o corpo humano adulto?",
-            "alternativas": ["206", "186", "226"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "Qual órgão é responsável principalmente pelas trocas gasosas?",
-            "alternativas": ["Pulmões", "Rins", "Estômago"],
-            "correta": 0,
-        },
     ],
 
-    "Matemática": [
+    "Curiosidades sobre Ímãs": [
         {
-            "pergunta": "Quanto é 80 mais 20 dividido por 2?",
-            "alternativas": ["90", "50", "100"],
+            "pergunta": "Como são chamados os dois extremos de um ímã?",
+            "alternativas": ["Polos", "Eixos", "Centros"],
             "correta": 0,
         },
         {
-            "pergunta": "Quantos minutos existem em 2 horas?",
-            "alternativas": ["60", "100", "120"],
+            "pergunta": "O que acontece quando dois polos iguais de ímãs se aproximam?",
+            "alternativas": ["Eles se repelem", "Eles se fundem", "Nada acontece"],
+            "correta": 0,
+        },
+        {
+            "pergunta": "Qual destes materiais é fortemente atraído por muitos ímãs comuns?",
+            "alternativas": ["Madeira", "Vidro", "Ferro"],
             "correta": 2,
         },
-        {
-            "pergunta": "Quanto é 9 vezes 7?",
-            "alternativas": ["56", "63", "72"],
-            "correta": 1,
-        },
     ],
 
-    "Português": [
-        {
-            "pergunta": "Qual palavra é um substantivo?",
-            "alternativas": ["Correr", "Casa", "Bonito"],
-            "correta": 1,
-        },
-        {
-            "pergunta": "Qual é o plural de papel?",
-            "alternativas": ["Papéis", "Papels", "Papeles"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "Qual palavra está escrita corretamente?",
-            "alternativas": ["Exceção", "Excessão", "Eceção"],
-            "correta": 0,
-        },
-    ],
-
-    "Ciências": [
-        {
-            "pergunta": "Em condições comuns, a água congela a quantos graus Celsius?",
-            "alternativas": ["0", "10", "20"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "Qual estrela ilumina a Terra?",
-            "alternativas": ["Lua", "Sol", "Vênus"],
-            "correta": 1,
-        },
-        {
-            "pergunta": "Qual destes animais é mamífero?",
-            "alternativas": ["Golfinho", "Tubarão", "Sardinha"],
-            "correta": 0,
-        },
-    ],
-
-    # O sexto vídeo volta automaticamente para o pincel ROSA.
-    "Geografia": [
-        {
-            "pergunta": "Qual é o maior país da América do Sul em área?",
-            "alternativas": ["Brasil", "Argentina", "Peru"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "Em qual continente fica o Egito?",
-            "alternativas": ["África", "Europa", "Ásia"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "Qual é a capital da França?",
-            "alternativas": ["Roma", "Paris", "Madri"],
-            "correta": 1,
-        },
-    ],
 }
