@@ -11,57 +11,69 @@
 
 QUIZZES = {
 
-    "Lobisomem": [
+    # ========================================================
+    # VÍDEO 1 — UMA IMAGEM ÚNICA EM CADA PERGUNTA
+    # ========================================================
+    "Desafio Visual": [
         {
-            "pergunta": "Em muitas lendas, em qual fase da lua o lobisomem costuma se transformar?",
-            "alternativas": ["Lua cheia", "Lua nova", "Lua minguante"],
+            "pergunta": "Qual destes animais é um mamífero marinho?",
+            "alternativas": ["Tubarão", "Golfinho", "Pinguim"],
+            "correta": 1,
+            "imagem": "imagens_perguntas/desafio_01.png",
+        },
+        {
+            "pergunta": "Qual destes monumentos fica na Itália?",
+            "alternativas": ["Coliseu", "Big Ben", "Torre Eiffel"],
             "correta": 0,
+            "imagem": "imagens_perguntas/desafio_02.png",
         },
         {
-            "pergunta": "O lobisomem é uma criatura metade homem e metade o quê?",
-            "alternativas": ["Urso", "Lobo", "Cavalo"],
-            "correta": 1,
-        },
-        {
-            "pergunta": "O lobisomem faz parte principalmente de qual tipo de narrativa?",
-            "alternativas": ["Receitas populares", "Lendas e folclore", "Notícias esportivas"],
-            "correta": 1,
+            "pergunta": "Qual destes alimentos é produzido pelas abelhas?",
+            "alternativas": ["Geleia", "Xarope", "Mel"],
+            "correta": 2,
+            "imagem": "imagens_perguntas/desafio_03.png",
         },
     ],
 
-    "Loira do Banheiro": [
+    # ========================================================
+    # VÍDEO 2 — SEM IMAGENS
+    # ========================================================
+    "Mistérios do Corpo": [
         {
-            "pergunta": "A Loira do Banheiro é conhecida como qual tipo de personagem?",
-            "alternativas": ["Heroína histórica", "Lenda urbana", "Cantora famosa"],
+            "pergunta": "Qual parte do corpo humano não possui vasos sanguíneos?",
+            "alternativas": ["Córnea", "Tímpano", "Unha"],
+            "correta": 0,
+        },
+        {
+            "pergunta": "Qual órgão produz a maior parte da bile?",
+            "alternativas": ["Pâncreas", "Fígado", "Baço"],
             "correta": 1,
         },
         {
-            "pergunta": "Em qual lugar essa lenda costuma acontecer?",
-            "alternativas": ["Banheiro de escola", "Praia deserta", "Campo de futebol"],
-            "correta": 0,
-        },
-        {
-            "pergunta": "A lenda da Loira do Banheiro é muito conhecida principalmente em qual país?",
-            "alternativas": ["Brasil", "Canadá", "Japão"],
-            "correta": 0,
+            "pergunta": "Qual estrutura protege o cérebro dentro da cabeça?",
+            "alternativas": ["Esterno", "Escápula", "Crânio"],
+            "correta": 2,
         },
     ],
 
-    "Boi da Cara Preta": [
+    # ========================================================
+    # VÍDEO 3 — SEM IMAGENS
+    # ========================================================
+    "Curiosidades do Planeta": [
         {
-            "pergunta": "O Boi da Cara Preta é mais conhecido por aparecer em quê?",
-            "alternativas": ["Cantiga popular", "Filme de ação", "Programa de auditório"],
+            "pergunta": "Qual é o maior oceano da Terra?",
+            "alternativas": ["Pacífico", "Atlântico", "Índico"],
             "correta": 0,
         },
         {
-            "pergunta": "Na cantiga, o Boi da Cara Preta é citado para assustar quem?",
-            "alternativas": ["O fazendeiro", "A criança que não quer dormir", "O vendedor da feira"],
+            "pergunta": "Qual camada da Terra é formada principalmente por ferro e níquel?",
+            "alternativas": ["Crosta", "Núcleo", "Manto"],
             "correta": 1,
         },
         {
-            "pergunta": "O Boi da Cara Preta faz parte de qual tradição cultural?",
-            "alternativas": ["Folclore e cultura popular", "Ciência moderna", "Matemática básica"],
-            "correta": 0,
+            "pergunta": "Qual continente possui a maior quantidade de países?",
+            "alternativas": ["Europa", "Ásia", "África"],
+            "correta": 2,
         },
     ],
 
