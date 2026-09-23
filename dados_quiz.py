@@ -5,60 +5,66 @@
 
 QUIZZES = {
 
-    "Desafio Visual": [
+    "Eleições 2026": [
         {
-            "pergunta": "Qual destes animais é um mamífero marinho?",
-            "alternativas": ["Tubarão", "Golfinho", "Pinguim"],
+            "pergunta": "Em uma eleição geral no Brasil, qual destes cargos é escolhido pelo voto popular?",
+            "alternativas": ["Ministro do STF", "Presidente", "Procurador-geral"],
             "correta": 1,
-            "imagem": "imagens_perguntas/desafio_01.png",
+            "imagem": "imagens_perguntas/eleicoes_01.png",
         },
         {
-            "pergunta": "Qual destes monumentos fica na Itália?",
-            "alternativas": ["Coliseu", "Big Ben", "Torre Eiffel"],
+            "pergunta": "Qual órgão é responsável por organizar as eleições no Brasil?",
+            "alternativas": ["TSE", "INSS", "IBGE"],
             "correta": 0,
-            "imagem": "imagens_perguntas/desafio_02.png",
+            "imagem": "imagens_perguntas/eleicoes_02.png",
         },
         {
-            "pergunta": "Qual destes alimentos é produzido pelas abelhas?",
-            "alternativas": ["Geleia", "Xarope", "Mel"],
+            "pergunta": "Qual destes itens é usado para confirmar a identidade do eleitor no momento da votação?",
+            "alternativas": ["Receita médica", "Cartão de banco", "Documento oficial"],
             "correta": 2,
-            "imagem": "imagens_perguntas/desafio_03.png",
+            "imagem": "imagens_perguntas/eleicoes_03.png",
         },
     ],
 
-    "Mistérios do Corpo": [
+    "Menstruação": [
         {
-            "pergunta": "Qual parte do corpo humano não possui vasos sanguíneos?",
-            "alternativas": ["Córnea", "Tímpano", "Unha"],
+            "pergunta": "Qual tecido é eliminado durante a menstruação?",
+            "alternativas": ["Endométrio", "Miocárdio", "Esôfago"],
             "correta": 0,
+            "imagem": "imagens_perguntas/menstruacao_01.png",
         },
         {
-            "pergunta": "Qual órgão produz a maior parte da bile?",
-            "alternativas": ["Pâncreas", "Fígado", "Baço"],
+            "pergunta": "Qual hormônio costuma ter pico próximo da ovulação?",
+            "alternativas": ["Insulina", "LH", "Adrenalina"],
             "correta": 1,
+            "imagem": "imagens_perguntas/menstruacao_02.png",
         },
         {
-            "pergunta": "Qual estrutura protege o cérebro dentro da cabeça?",
-            "alternativas": ["Esterno", "Escápula", "Crânio"],
+            "pergunta": "Um ciclo menstrual precisa ter exatamente 28 dias para ser normal?",
+            "alternativas": ["Sempre", "Nunca", "Não"],
             "correta": 2,
+            "imagem": "imagens_perguntas/menstruacao_03.png",
         },
     ],
 
-    "Curiosidades do Planeta": [
+    "Português": [
         {
-            "pergunta": "Qual é o maior oceano da Terra?",
-            "alternativas": ["Pacífico", "Atlântico", "Índico"],
+            "pergunta": "Qual destas palavras é sinônimo de 'feliz'?",
+            "alternativas": ["Contente", "Rígido", "Escuro"],
             "correta": 0,
+            "imagem": "imagens_perguntas/portugues_01.png",
         },
         {
-            "pergunta": "Qual camada da Terra é formada principalmente por ferro e níquel?",
-            "alternativas": ["Crosta", "Núcleo", "Manto"],
-            "correta": 1,
+            "pergunta": "Qual destas palavras está escrita corretamente?",
+            "alternativas": ["Exceção", "Exessão", "Ecceção"],
+            "correta": 0,
+            "imagem": "imagens_perguntas/portugues_02.png",
         },
         {
-            "pergunta": "Qual continente possui a maior quantidade de países?",
-            "alternativas": ["Europa", "Ásia", "África"],
+            "pergunta": "Em 'Ana comprou flores', qual é o verbo da frase?",
+            "alternativas": ["Ana", "Flores", "Comprou"],
             "correta": 2,
+            "imagem": "imagens_perguntas/portugues_03.png",
         },
     ],
 
