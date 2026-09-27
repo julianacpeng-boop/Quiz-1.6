@@ -2,66 +2,78 @@
 # JUH QUIZ — PINCÉIS DE 5 CORES
 # correta: 0=A, 1=B, 2=C
 # ============================================================
-
-
 QUIZZES = {
+
+    "Você saberia responder?": [
+        {"pergunta": "Qual planeta é conhecido como Planeta Vermelho?", "alternativas": ["Marte", "Júpiter", "Saturno"], "correta": 0},
+        {"pergunta": "Qual é o maior oceano da Terra?", "alternativas": ["Atlântico", "Pacífico", "Índico"], "correta": 1},
+        {"pergunta": "Qual animal é conhecido como o rei da selva?", "alternativas": ["Tigre", "Elefante", "Leão"], "correta": 2},
+    ],
+
+    "Coisas que parecem mentira": [
+        {"pergunta": "Qual animal consegue regenerar partes do próprio corpo?", "alternativas": ["Axolote", "Cavalo", "Girafa"], "correta": 0},
+        {"pergunta": "Qual alimento pode durar muitos anos quando armazenado corretamente?", "alternativas": ["Morango", "Mel", "Alface"], "correta": 1},
+        {"pergunta": "Qual animal possui três corações?", "alternativas": ["Golfinho", "Pinguim", "Polvo"], "correta": 2},
+    ],
+
+    "Nostalgia dos anos 90": [
+        {"pergunta": "Qual aparelho era muito usado para ouvir músicas em fitas?", "alternativas": ["Walkman", "GPS", "Tablet"], "correta": 0},
+        {"pergunta": "Qual objeto era usado para rebobinar fitas VHS?", "alternativas": ["Calculadora", "Videocassete", "Pager"], "correta": 1},
+        {"pergunta": "Qual brinquedo ficou famoso por ter uma tela simples e vários jogos?", "alternativas": ["Drone", "Smartwatch", "Game Boy"], "correta": 2},
+    ],
+
+    "Adivinhe o filme pela pista": [
+        {"pergunta": "Um brinquedo cowboy chamado Woody é um dos personagens principais. Qual filme?", "alternativas": ["Toy Story", "Shrek", "Frozen"], "correta": 0},
+        {"pergunta": "Um ogro verde vive em um pântano. Qual filme?", "alternativas": ["Madagascar", "Shrek", "Carros"], "correta": 1},
+        {"pergunta": "Uma jovem princesa perde um sapatinho de cristal. Qual história?", "alternativas": ["Moana", "Mulan", "Cinderela"], "correta": 2},
+    ],
+
+    "Teste de memória": [
+        {"pergunta": "Qual destes animais aparece no desenho Tom e Jerry?", "alternativas": ["Gato", "Girafa", "Panda"], "correta": 0},
+        {"pergunta": "Qual personagem usa uma roupa vermelha e vive no mundo dos cogumelos?", "alternativas": ["Sonic", "Mario", "Pikachu"], "correta": 1},
+        {"pergunta": "Qual personagem é conhecido por dizer 'Eu sou o Batman'?", "alternativas": ["Superman", "Homem-Aranha", "Batman"], "correta": 2},
+    ],
+
     "Qual não combina?": [
-        {"pergunta": "Qual destes animais não é mamífero?", "alternativas": ["Tubarão", "Golfinho", "Baleia"], "correta": 0},
-        {"pergunta": "Qual destes alimentos não é fruto, na classificação botânica?", "alternativas": ["Tomate", "Batata", "Abacate"], "correta": 1},
-        {"pergunta": "Qual destes corpos celestes não é planeta?", "alternativas": ["Marte", "Vênus", "Lua"], "correta": 2},
+        {"pergunta": "Qual destes não é um instrumento musical?", "alternativas": ["Violão", "Bateria", "Binóculo"], "correta": 2},
+        {"pergunta": "Qual destes animais não vive normalmente na água?", "alternativas": ["Golfinho", "Tubarão", "Leão"], "correta": 2},
+        {"pergunta": "Qual destes objetos não é usado para escrever?", "alternativas": ["Lápis", "Caneta", "Garfo"], "correta": 2},
     ],
 
-    "Adivinhe o animal pela pista": [
-        {"pergunta": "Tenho listras pretas e brancas e pareço um cavalo. Quem sou?", "alternativas": ["Zebra", "Girafa", "Anta"], "correta": 0},
-        {"pergunta": "Sou mamífero, ponho ovos e tenho bico. Quem sou?", "alternativas": ["Canguru", "Ornitorrinco", "Hipopótamo"], "correta": 1},
-        {"pergunta": "Mudo de cor e movo meus olhos quase independentemente. Quem sou?", "alternativas": ["Sapo", "Cobra", "Camaleão"], "correta": 2},
+    "Comidas que todo mundo conhece": [
+        {"pergunta": "Qual ingrediente é tradicionalmente usado para fazer guacamole?", "alternativas": ["Abacate", "Morango", "Banana"], "correta": 0},
+        {"pergunta": "Qual destes alimentos é feito principalmente com leite?", "alternativas": ["Arroz", "Queijo", "Milho"], "correta": 1},
+        {"pergunta": "Qual fruta é conhecida por ter sementes do lado de fora?", "alternativas": ["Uva", "Manga", "Morango"], "correta": 2},
     ],
 
-    "Objetos que quase sumiram": [
-        {"pergunta": "Qual objeto era usado para rebobinar fita cassete manualmente?", "alternativas": ["Lápis", "Colher", "Régua"], "correta": 0},
-        {"pergunta": "Qual aparelho tinha um disco giratório para discar números?", "alternativas": ["Pager", "Telefone de disco", "Fax"], "correta": 1},
-        {"pergunta": "Qual equipamento projetava diapositivos na parede?", "alternativas": ["Toca-discos", "Mimeógrafo", "Projetor de slides"], "correta": 2},
+    "Lugares incríveis do mundo": [
+        {"pergunta": "Em qual país fica a Torre Eiffel?", "alternativas": ["França", "Itália", "Alemanha"], "correta": 0},
+        {"pergunta": "Em qual país fica o Cristo Redentor?", "alternativas": ["Argentina", "Brasil", "Chile"], "correta": 1},
+        {"pergunta": "Em qual país fica Machu Picchu?", "alternativas": ["Bolívia", "Equador", "Peru"], "correta": 2},
     ],
 
-    "Comidas de outros países": [
-        {"pergunta": "O sushi é associado à culinária de qual país?", "alternativas": ["Japão", "México", "Egito"], "correta": 0},
-        {"pergunta": "O taco é tradicional da culinária de qual país?", "alternativas": ["Itália", "México", "Grécia"], "correta": 1},
-        {"pergunta": "O croissant é atualmente um símbolo da culinária de qual país?", "alternativas": ["Portugal", "Brasil", "França"], "correta": 2},
+    "Adivinhe o animal": [
+        {"pergunta": "Tenho uma tromba grande e orelhas enormes. Quem sou?", "alternativas": ["Elefante", "Rinoceronte", "Hipopótamo"], "correta": 0},
+        {"pergunta": "Sou conhecido por mudar de cor para me camuflar. Quem sou?", "alternativas": ["Pinguim", "Camaleão", "Canguru"], "correta": 1},
+        {"pergunta": "Sou uma ave que não voa e vivo em regiões muito frias. Quem sou?", "alternativas": ["Águia", "Arara", "Pinguim"], "correta": 2},
     ],
 
-    "Descubra o monumento": [
-        {"pergunta": "Em qual cidade está a Estátua da Liberdade?", "alternativas": ["Nova York", "Londres", "Toronto"], "correta": 0},
-        {"pergunta": "Em qual cidade está a Torre Eiffel?", "alternativas": ["Roma", "Paris", "Lisboa"], "correta": 1},
-        {"pergunta": "Em qual país fica Machu Picchu?", "alternativas": ["Chile", "México", "Peru"], "correta": 2},
+    "Curiosidades do corpo humano": [
+        {"pergunta": "Qual órgão bombeia o sangue pelo corpo?", "alternativas": ["Coração", "Pulmão", "Estômago"], "correta": 0},
+        {"pergunta": "Qual órgão é responsável principalmente pela respiração?", "alternativas": ["Fígado", "Pulmão", "Rim"], "correta": 1},
+        {"pergunta": "Qual é o maior órgão do corpo humano?", "alternativas": ["Coração", "Fígado", "Pele"], "correta": 2},
     ],
 
-    "Poderes da natureza": [
-        {"pergunta": "A formação das chuvas faz parte de qual ciclo natural?", "alternativas": ["Ciclo da água", "Ciclo das rochas apenas", "Ciclo lunar"], "correta": 0},
-        {"pergunta": "Qual fenômeno luminoso pode aparecer no céu próximo aos polos?", "alternativas": ["Eclipse diário", "Aurora polar", "Maré alta"], "correta": 1},
-        {"pergunta": "Qual instrumento registra vibrações de terremotos?", "alternativas": ["Barômetro", "Termômetro", "Sismógrafo"], "correta": 2},
+    "Verdadeiro ou quase": [
+        {"pergunta": "Qual destes animais é conhecido por dormir de cabeça para baixo?", "alternativas": ["Morcego", "Cachorro", "Cavalo"], "correta": 0},
+        {"pergunta": "Qual destes animais é famoso por carregar seus filhotes em uma bolsa?", "alternativas": ["Leão", "Canguru", "Tubarão"], "correta": 1},
+        {"pergunta": "Qual destes animais pode viver tanto na água quanto em terra?", "alternativas": ["Girafa", "Águia", "Sapo"], "correta": 2},
     ],
 
-    "Olhe para o corpo humano": [
-        {"pergunta": "Qual é o nome do osso da coxa?", "alternativas": ["Fêmur", "Úmero", "Rádio"], "correta": 0},
-        {"pergunta": "Quais órgãos filtram o sangue e produzem urina?", "alternativas": ["Pulmões", "Rins", "Estômago"], "correta": 1},
-        {"pergunta": "Qual componente do sangue ajuda a formar coágulos?", "alternativas": ["Hemácias", "Plasma isoladamente", "Plaquetas"], "correta": 2},
+    "Desafio final — será que você acerta 3/3?": [
+        {"pergunta": "Qual é o único satélite natural da Terra?", "alternativas": ["Lua", "Marte", "Sol"], "correta": 0},
+        {"pergunta": "Qual país é conhecido pela famosa Torre de Pisa?", "alternativas": ["França", "Itália", "Portugal"], "correta": 1},
+        {"pergunta": "Qual animal é o mais rápido em terra?", "alternativas": ["Leão", "Cavalo", "Guepardo"], "correta": 2},
     ],
 
-    "Adivinhe a profissão": [
-        {"pergunta": "Qual profissional estuda fósseis de seres que viveram no passado?", "alternativas": ["Paleontólogo", "Contador", "Advogado"], "correta": 0},
-        {"pergunta": "Quem produz mapas como atividade especializada?", "alternativas": ["Agrônomo", "Cartógrafo", "Farmacêutico"], "correta": 1},
-        {"pergunta": "Quem estuda a atmosfera e ajuda na previsão do tempo?", "alternativas": ["Arqueólogo", "Oceanógrafo", "Meteorologista"], "correta": 2},
-    ],
-
-    "Desafio das cores": [
-        {"pergunta": "Na mistura de tintas, azul com amarelo geralmente forma qual cor?", "alternativas": ["Verde", "Vermelho", "Roxo"], "correta": 0},
-        {"pergunta": "Qual cor do semáforo indica parada?", "alternativas": ["Verde", "Vermelho", "Amarelo"], "correta": 1},
-        {"pergunta": "Qual cor aparece ao lado do vermelho no arco-íris tradicional?", "alternativas": ["Azul", "Violeta", "Laranja"], "correta": 2},
-    ],
-
-    "País por uma pista": [
-        {"pergunta": "O tango é tradicionalmente associado a qual país?", "alternativas": ["Argentina", "Japão", "Canadá"], "correta": 0},
-        {"pergunta": "Lisboa é capital de qual país?", "alternativas": ["Espanha", "Portugal", "Itália"], "correta": 1},
-        {"pergunta": "Em qual país ficam as pirâmides de Gizé?", "alternativas": ["Marrocos", "Grécia", "Egito"], "correta": 2},
-    ],
 }
